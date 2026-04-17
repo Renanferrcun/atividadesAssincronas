@@ -28,7 +28,7 @@ public class MédiaFinal {
 		//Processamento de Dados
 		mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
 		
-		System.out.print("Média final: " + mediaFinal);
+		System.out.printf("Média final: %.1f", mediaFinal);
 	}
 
 }
