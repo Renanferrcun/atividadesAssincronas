@@ -28,7 +28,8 @@ public class EstruturaDeDadosFila {
 
 			if (escolha == 1) {
 				System.out.println("\nDigite o nome do Cliente: \n");
-				String nome = leia.next();
+				leia.nextLine();
+				String nome = leia.nextLine();
 				clientes.add(nome);
 				Iterator<String> iterador = clientes.iterator();
 				System.out.println("\nFila: \n");
